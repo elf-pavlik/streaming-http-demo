@@ -1,0 +1,16 @@
+{
+  "name": "streaming-http-demo",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "server": "node server.js",
+    "client": "node client.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "license": "MIT",
+  "volta": {
+    "node": "18.13.0"
+  }
+}
