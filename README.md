@@ -16,3 +16,9 @@ To start the client:
 ```bash
 npm run client
 ```
+
+To start the legacy client (streams not async iterable):
+
+```bash
+npm run legacy
+```
