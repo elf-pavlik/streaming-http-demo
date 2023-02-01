@@ -14,6 +14,7 @@ PREFIX notify: <http://www.w3.org/ns/solid/notifications#>
   as:published "2021-08-05T01:01:49.550Z"^^xsd:dateTime .
 `
 const server = http.createServer((req, res) => {
+  res.setHeader('Access-Control-Allow-Origin', '*');
   res.setHeader('Content-Type', 'text/turtle; charset=UTF-8');
   setInterval(() => {
     res.write(notification);
